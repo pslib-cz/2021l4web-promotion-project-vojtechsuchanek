@@ -88,6 +88,7 @@ video {
 .wave--flipped {
   transform: rotate(180deg) scaleY(50%) translateY(calc(50% + 2px));
 }
+
 .navigation a {
   color: var(--blue);
 }
@@ -136,6 +137,12 @@ main {
   .section {
     width: var(--pageWidth);
     padding: 1rem calc(50% - var(--pageWidth) / 2);
+  }
+  .wave--before{
+    margin-top: -100px;
+  }
+  .wave--flipped {
+    margin-bottom: -200px;
   }
 }
 
