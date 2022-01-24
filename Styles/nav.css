@@ -29,7 +29,7 @@
   padding: 0 calc(50vw - 600px);
   z-index: 999;
   top: 0;
-
+  box-shadow: 0 0 5px black;
 }
 
 .navigation ul {
