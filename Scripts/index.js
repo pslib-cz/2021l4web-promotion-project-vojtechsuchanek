@@ -30,3 +30,12 @@ document.addEventListener("scroll", () => {
         }
     }
 })
+
+document.querySelectorAll(".button.button--buy").forEach(button => {
+    button.addEventListener("click", () => {
+        gtag('event', 'click-order', {
+            'event_category': 'order',
+            'event_label': 'landing-page'
+        })
+    })
+})
